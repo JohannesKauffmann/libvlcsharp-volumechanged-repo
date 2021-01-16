@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using System.Timers;
 using LibVLCSharp.Shared;
 
 namespace libvlcsharpvolumechangedrepo
