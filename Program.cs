@@ -16,6 +16,7 @@ namespace libvlcsharpvolumechangedrepo
             using var libVLC = new LibVLC(enableDebugLogs: false);
             using var media = new Media(libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"));
             mp = new MediaPlayer(media);
+            Console.WriteLine(String.Format("Volume after init: {0}", mp.Volume));
             mp.Playing += Mp_Playing; ;
             mp.VolumeChanged += Mp_VolumeChanged;
             mp.Play();
