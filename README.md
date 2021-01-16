@@ -3,7 +3,7 @@
 This repo will:
 - Start media playback
 - Log every volumechanged event
-- Set volume to 50 after playing
-- Set volume back to 100 after a second
+- Set volume to 100 after playing
+- Print the amount of times the event was invoked
 
-The volumechanged event should only fire twice, but does so six times (three per volume change).
+The volumechanged event should only fire once, but does so two or three times (this is not reproducable).
