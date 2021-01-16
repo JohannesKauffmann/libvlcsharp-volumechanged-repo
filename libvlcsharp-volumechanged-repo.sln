@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibVLCSharp.NetCore.Sample", "LibVLCSharp.NetCore.Sample.csproj", "{72858B13-F406-49CC-AAEB-6910B37ACB7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libvlcsharp-volumechanged-repo", "libvlcsharp-volumechanged-repo.csproj", "{72858B13-F406-49CC-AAEB-6910B37ACB7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
